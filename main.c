@@ -21,6 +21,12 @@ int main(void) {
   printf("\xBA\xBA\n");
   printf("\xC8\xCD\xBC\n");
 
+  //Teste de ++
+  int a = 2, b= 5;
+  int no = (a + b++) * 3;
+  printf("no=%d\n\n", no);
+  
+
   //Mudança de Fahrenheit para Celsius 
   int ftemp, ctemp;
   printf("Digite a temperatura em graus Fahrenheit: ");
